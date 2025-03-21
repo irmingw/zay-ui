@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Mostify UI"
-  text: "Exquisite Vue Component Library"
-  tagline: "A beautifully designed, easy-to-use, and flexibly expandable UI component library"
+  name: 'Zay Ui'
+  text: 'Exquisite Vue Component Library'
+  tagline: 'A beautifully designed, easy-to-use, and flexibly expandable UI component library'
   image:
     dark: /logo.svg
     light: /dark-logo.svg
@@ -20,7 +20,7 @@ hero:
 features:
   - title: Well-Designed
     details: Adhere to ergonomic principles and create the ultimate user experience.
-    icon:  🎨
+    icon: 🎨
   - title: Easy to use
     details: The operation is intuitive and convenient, immediately embarking on an efficient development journey.
     icon: 🚀

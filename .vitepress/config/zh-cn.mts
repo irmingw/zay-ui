@@ -6,8 +6,6 @@ export default {
   themeConfig: {
     nav: [
       { text: '首页', link: getUrl() },
-      { text: '快手上手', link: getUrl('start') },
-      { text: '主题配置', link: getUrl('theme') },
       { text: '组件文档', link: getUrl('button') },
     ],
 
@@ -66,7 +64,7 @@ export default {
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/irming46/zay-ui' },
+      { icon: 'github', link: 'https://github.com/irmingw/zay-ui' },
     ],
 
     docFooter: {
