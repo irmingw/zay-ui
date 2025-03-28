@@ -11,6 +11,6 @@
     "vitepress": "^1.5.0"
   },
   "dependencies": {
-    "zay-ui": "^0.0.11"
+    "zay-ui": "^0.0.12"
   }
 }

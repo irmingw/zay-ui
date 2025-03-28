@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'Zay Ui'
+  name: 'Zay UI'
   text: 'Exquisite Vue Component Library'
   tagline: 'A beautifully designed, easy-to-use, and flexibly expandable UI component library'
   image:

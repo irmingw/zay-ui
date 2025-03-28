@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/zay-ui/',
   head: [['link', { rel: 'icon', href: '/zay-ui/logo.svg' }]],
   themeConfig: {
-    siteTitle: 'ZayUi',
+    siteTitle: 'Zay UI',
     logo: {
       dark: '/logo.svg',
       light: '/dark-logo.svg',

@@ -1,8 +1,8 @@
 const getUrl = (name = '') => `/${name}`;
 export default {
-  title: 'Mostify UI a Vue3 UI component library',
+  title: 'Zay UI a Vue3 UI component library',
   description:
-    'Mostify UI a Vue3 UI component library that provides exquisite UI components',
+    'Zay UI a Vue3 UI component library that provides exquisite UI components',
   themeConfig: {
     nav: [
       { text: 'Home', link: getUrl() },

@@ -1,8 +1,8 @@
 // https://vitepress.dev/reference/site-config
 const getUrl = (name = '') => `/zh-cn/${name}`;
 export default {
-  title: 'Mostify UI 一个 Vue3 UI 组件库',
-  description: 'Mostify UI 一个 Vue3 UI 组件库，提供精美的 UI 组件',
+  title: 'Zay UI一个 Vue3 UI 组件库',
+  description: 'Zay UI一个 Vue3 UI 组件库，提供精美的 UI 组件',
   themeConfig: {
     nav: [
       { text: '首页', link: getUrl() },
