@@ -1,11 +1,11 @@
 // https://vitepress.dev/reference/site-config
-const getUrl = (name = '') => `/zh-cn/${name}`;
+const getUrl = (name = '') => `/${name}`;
 export default {
   title: 'Zay UI一个 Vue3 UI 组件库',
   description: 'Zay UI一个 Vue3 UI 组件库，提供精美的 UI 组件',
   themeConfig: {
     nav: [
-      { text: '首页', link: getUrl() },
+      { text: '快速上手', link: getUrl('start') },
       { text: '组件文档', link: getUrl('button') },
     ],
 
@@ -14,7 +14,6 @@ export default {
         text: '基础',
         items: [
           { text: '快手上手', link: getUrl('start') },
-          { text: '架构设计', link: getUrl('design') },
           { text: '主题配置', link: getUrl('theme') },
         ],
       },

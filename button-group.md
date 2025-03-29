@@ -1,21 +1,19 @@
-# Button Group
+# Button Group 按钮组
 
-Button Group Is a group of buttons. It can be used to perform a series of related operations in a single operation.
+按钮组可以将多个按钮组合在一起，并以同一尺寸和样式显示。
 
-## Useage
+## 用法
 
-Use `direction` attribute to set the direction of button group.
-
-User `size` attribute to set the size of button group.
+使用 `direction` 属性设置按钮组的方向。使用 `size` 属性设置按钮组的尺寸。
 
 ## Direction
 
-values: `horizontal` | `vertical`
+`horizontal` | `vertical`
 
 <z-button-group>
-  <z-button color="primary">Button 1</z-button>
-  <z-button color="primary">Button 2</z-button>
-  <z-button color="primary">Button 3</z-button>
+  <z-button color="primary">LEFT</z-button>
+  <z-button color="primary">CENTER</z-button>
+  <z-button color="primary">RIGHT</z-button>
 </z-button-group>
 
 ```html
