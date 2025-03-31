@@ -58,11 +58,11 @@ Checkbox 多选框用于在一组可选项中进行多项选择。
 
 设置`indeterminate`属性即可。
 
-<z-checkbox :indeterminate="indeterminate">备选项</z-checkbox>
+<z-checkbox :indeterminate="im">备选项</z-checkbox>
 
 ```html
 <template>
-  <z-checkbox :indeterminate="indeterminate">备选项</z-checkbox>
+  <z-checkbox :indeterminate="im">备选项</z-checkbox>
 </template>
 ```
 
@@ -83,6 +83,7 @@ Checkbox 多选框用于在一组可选项中进行多项选择。
         renderList: ['苹果', '香蕉', '橙子'],
         checkAll: false,
         indeterminate: false,
+        im:true
       };
     },
     methods:{
@@ -119,7 +120,7 @@ Checkbox 多选框用于在一组可选项中进行多项选择。
   export default {
     data() {
       return {
-        checkList: ['苹果', '香蕉', '橙子'],
+        checkList: [],
         renderList: ['苹果', '香蕉', '橙子'],
         checkAll: false,
         indeterminate: false,
@@ -127,7 +128,7 @@ Checkbox 多选框用于在一组可选项中进行多项选择。
     },
     methods: {
       onChange() {
-        this.checkList = this.checkAll ? ['苹果', '香蕉', '橙子'] : [];
+        this.checkList = this.checkAll ? this.renderList : [];
         this.indeterminate = false;
       },
       onItemChange(val) {
