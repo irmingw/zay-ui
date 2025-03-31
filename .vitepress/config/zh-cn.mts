@@ -24,15 +24,12 @@ export default {
           { text: 'ButtonGroup 按钮组', link: getUrl('button-group') },
           { text: 'Icon 图标', link: getUrl('icon') },
           { text: 'Colors 色彩', link: getUrl('colors') },
-          { text: 'Space 间距', link: getUrl('space') },
         ],
       },
       {
         text: '表单',
         items: [
           { text: 'Input 输入框', link: getUrl('input') },
-          { text: 'InputNumber 数字输入', link: getUrl('input-number') },
-          { text: 'Textarea 文本域', link: getUrl('textarea') },
           { text: 'Checkbox 多选框', link: getUrl('checkbox') },
         ],
       },

@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "zay-icon": "^0.0.2",
-    "zay-ui": "^0.0.17"
+    "zay-ui": "^0.0.18"
   }
 }
